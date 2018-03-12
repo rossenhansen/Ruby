@@ -1,0 +1,9 @@
+p 1 < 8 #true
+p "a" < "b" #true
+p "c" < "b" #false
+p "Z" < "a" #true
+p "A" < "a" #true
+p "a" < "A" #false
+p 1 <= 1 #true
+p 1 > 8 #false
+p 1 >= 1 #true
