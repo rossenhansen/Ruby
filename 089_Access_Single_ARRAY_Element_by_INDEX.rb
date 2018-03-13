@@ -1,0 +1,12 @@
+fruits = %w[Apple Orange Grape Bannana Pear]
+p fruits.length #=> 5 #Number of elements in the Array
+p fruits.values_at(1..3) #=> ["Orange", "Grape", "Bannana"]
+p fruits.values_at(0) #=> ["Apple"]
+p fruits[6] #=> nil
+p fruits[0] #=> "Apple"
+p fruits[1..3] #=> ["Orange", "Grape", "Bannana"]
+p fruits[fruits.length - 1] #=> "Pear"
+p fruits[-1] #=> "Pear" #One from end
+p fruits[-2] #=> "Bannana" #Counting backwards from the right
+p fruits.[](2) #=> "Grape"
+p fruits.[](-2) #=> "Bannana"
