@@ -17,4 +17,4 @@ end
 
 puts base10to2(123)
 puts base10to2(233)
-puts base10to2(299)
+puts base10to2(10299)
